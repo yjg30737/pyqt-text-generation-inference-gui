@@ -19,7 +19,7 @@ Before using this, you need to install Docker Desktop and run it. This will not 
 
 Set the model that you want to use in main.py
 
-![image](https://github.com/yjg30737/pyqt-text-generation-inference-gui/assets/55078043/9f9d8701-c1e5-41f1-853e-1c904ef98592)
+![image](https://github.com/yjg30737/pyqt-text-generation-inference-gui/assets/55078043/a6825e5f-0433-4053-a80b-214e05282f6a)
 
 #### You need Access Tokens if you want to test llama2, falcon, etc. 
 
