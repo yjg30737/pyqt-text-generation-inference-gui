@@ -113,14 +113,14 @@ class MainWindow(QMainWindow):
         self.__readyModelBtn.clicked.connect(self.__run)
         self.__optionGrpBox = QGroupBox()
         # model = 'bigscience/bloom-560m'
-        model = 'tiiuae/falcon-7b-instruct'
+        models = ['tiiuae/falcon-7b-instruct']
 
         num_shard = 1
         volume = f'{os.getcwd()}\data'
         token = None
 
         self.__modelCmbBox = QComboBox()
-        self.__modelCmbBox.addItems([model])
+        self.__modelCmbBox.addItems(models)
 
         self.__numShardSpinBox = QSpinBox()
         self.__numShardSpinBox.setRange(1, 4)
@@ -132,6 +132,7 @@ class MainWindow(QMainWindow):
 
         self.__tokenLineEdit = QLineEdit()
         self.__tokenLineEdit.setText(token)
+        self.__tokenLineEdit.setEchoMode(QLineEdit.Password)
 
         lay = QFormLayout()
         lay.addRow('Model', self.__modelCmbBox)
