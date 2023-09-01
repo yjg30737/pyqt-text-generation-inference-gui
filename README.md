@@ -17,7 +17,7 @@ Before using this, you need to install Docker Desktop and run it. This will not 
 3. cd src
 4. python main.py
 
-Set the model that you want to use in main.py
+Add any models that you want to use in main.py. It shows in "Model" combobox. You can see the combobox in "Result" section below.
 
 ![image](https://github.com/yjg30737/pyqt-text-generation-inference-gui/assets/55078043/a6825e5f-0433-4053-a80b-214e05282f6a)
 
